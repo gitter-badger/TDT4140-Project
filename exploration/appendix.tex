@@ -1,0 +1,34 @@
+\appendix
+
+\section{Product backlog}
+\begin{tabular}{ c | p{0.5\textwidth} | c | c}
+     ID & Story & Estimate & Priority \\ \hline
+     T1 & As a user, I want to enter my work hours so I can make sure I get paid on time & 5 & 1 \\
+\end{tabular}
+
+\newpage
+\section{Activity plan}
+\begin{adjustbox}{center}
+\begin{tabular}{ p{0.1\paperwidth} | p{0.1\paperwidth} | p{0.4\textwidth} | p{0.1\paperwidth} | p{0.1\paperwidth} }
+    Release due date & Story\# or other tasks & Description \newline \textcolor{red}{Remarks} & Estimated resource use & Actual resource use \\ \hline
+    27.4.2017 & Project management and related & Initial project plan, wrap-ups \textcolor{red}{Project management, wrap-ups, meetings, coaching} & 11 h & 11 h \\ \cline{2-5}
+     & Planning day & lol & 35 h & 37 h \\ 
+     
+\end{tabular}
+\end{adjustbox}
+
+\newpage
+\section{Risk assessment plan}
+\begin{adjustbox}{center}
+\begin{tabular}{ p{0.1\paperwidth} | p{0.25\paperwidth} | p{0.3\paperwidth} }
+    Risk & Means to prevent & Action and responsible \\ \hline
+    Schedule slips and project cancellation
+    & Controlled through daily progress monitoring and short release cycles.
+    & When schedule slips \textbf{customer/management} is requested to drop least needed stories/tasks or grant more resources. \textbf{Project manager} is responsible to keep management informed about project status. \\ \hline
+    
+    Business change, cost of changes
+    & New stories accepted on each release’s planning day. Automatic unit tests (regression), no malfunctioning sources allowed in version system.
+    & When stories need changing \textbf{customer/management} informs \textbf{project manager} who decides whether requested changes can be made into on-going release, in other case \textbf{customer} must choose stories to drop or grant needed resources. \textbf{Programmers} are responsible to update tests and check-in only test-passing source. \\ \hline
+    
+\end{tabular}
+\end{adjustbox}
